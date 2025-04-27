@@ -39,7 +39,7 @@ if __name__ == '__main__':
     with EcosSimulation(structure=ss, step_size=0.01) as sim:
         sim.add_csv_writer(result_file)
         sim.init(parameter_set="initialValues")
-        sim.step_until(1000.0)
+        sim.step_until(1.4)
         sim.terminate()
 
     # Plotting
