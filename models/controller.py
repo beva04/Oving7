@@ -7,8 +7,8 @@ class Controller(Fmi2Slave):
         # Regulatorparametre
         self.k1 = -1.0
         self.k2 = -2.0
-        self.k3 = -30.0
-        self.k4 = -10.0
+        self.k3 = 30.0
+        self.k4 = 10.0
 
         self.angle = 0.0
         self.angular_velocity = 0.0
